@@ -36,6 +36,11 @@ p {
 .myName {
   font-size: 96px;
 }
+
+.aboutMe {
+  font-size: 96px;
+}
+
 .text-center {
   text-align: center !important;
 }
@@ -123,7 +128,8 @@ p {
     font-size: 32px;
   }
 
-  .myName {
+  .myName,
+  .aboutMe {
     font-size: 48px;
   }
 
