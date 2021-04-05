@@ -10,15 +10,11 @@ body {
 }
 
 h2 {
-  font-size: 48px !important;
-}
-
-h1 {
-  font-size: 96px !important;
+  font-size: 48px;
 }
 
 h3 {
-  font-size: 24px !important;
+  font-size: 24px;
   opacity: 0.7;
 }
 
@@ -33,6 +29,13 @@ p {
   line-height: 1.5;
 }
 
+.greeting {
+  font-size: 48px;
+}
+
+.myName {
+  font-size: 96px;
+}
 .text-center {
   text-align: center !important;
 }
@@ -78,6 +81,7 @@ p {
   color: var(--primary-color);
   font-size: 28px;
   text-decoration: none;
+  margin-bottom: 20px;
 }
 
 .email-link:hover {
@@ -100,4 +104,38 @@ p {
 
 .about-paragraph p {
   margin: 30px 0;
+}
+
+@media (max-width: 576px) {
+  p {
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+  .greeting {
+    font-size: 32px;
+  }
+
+  .myName {
+    font-size: 48px;
+  }
+
+  .app-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
+}
+
+@media (min-width: 576) {
+  .d-sm-block {
+    display: block !important;
+  }
 }
